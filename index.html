@@ -13,16 +13,23 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         header {
-            background-image: url("./cabeceramenteclara.jpeg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            margin: 0;
-            text-align: center;
-            color: white;
-            padding: 50px 0;
+    background-image: url("./cabeceramenteclara.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; /* Asegura que el header cubra todo el ancho de la pantalla */
+    height: 300px; /* Ajusta este valor según la altura que quieras darle al header */
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        }
+header h1, header p {
+    margin: 0;
+    padding: 0;
+}
 
         
         body {
